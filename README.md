@@ -1,24 +1,18 @@
-# README
+## get started
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Install gems:
 
-Things you may want to cover:
+    gem install discog-get
 
-* Ruby version
+Setup database:
 
-* System dependencies
+    rake db:create
+    rake db:migrate
 
-* Configuration
+Run local server:
 
-* Database creation
+    rails s
 
-* Database initialization
+Run test:
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    bundle exec rspec
